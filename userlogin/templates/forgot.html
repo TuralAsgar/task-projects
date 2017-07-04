@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-xs-5 col-xs-offset-4">
+            <div id="status"></div>
+            <form class="form-horizontal" method="post" action="/reset">
+                <fieldset>
+                    <legend>Login</legend>
+                    <div class="form-group">
+                        <label for="email" class="col-xs-2 control-label">Email</label>
+                        <div class="col-xs-10">
+                            <input type="text" class="form-control" id="email" placeholder="Email" name="email">
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <div class="col-xs-10 col-xs-offset-2">
+                            <button type="submit" id="submit" class="btn btn-primary">Send</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+
+        </div>
+
+    </div>
+</div>
+
+
+<script src="/public/js/jquery-3.2.0.min.js"></script>
+<script src="/public/js/bootstrap.min.js"></script>
+<script>
+
+</script>
+</body>
+</html>

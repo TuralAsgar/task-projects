@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-xs-5 col-xs-offset-4">
+            <strong>Your profile information</strong><br>
+            Your email: {{.Email}} <br>
+            Your name:  {{.Name}}<br>
+            Your address:  {{.Address}}<br>
+            Your phone:  {{.Phone}}<br>
+            <a class="btn btn-info" href="/editform">Edit</a> <a class="btn btn-warning" href="/logout">Log out</a>
+        </div>
+
+
+    </div>
+</div>
+
+<script src="/public/js/jquery-3.2.0.min.js"></script>
+<script src="/public/js/bootstrap.min.js"></script>
+</body>
+</html>
